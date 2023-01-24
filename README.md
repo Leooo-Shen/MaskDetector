@@ -1,4 +1,5 @@
-## FacialMaskDetetor with Modified YOLOv4
+# FacialMaskDetetor with Modified YOLOv4
+Bachelor Thesis at NUAA, guided by Prof. Chaoying Tang.
 ---
 
 ## Introduction
