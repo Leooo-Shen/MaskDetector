@@ -1,8 +1,8 @@
-# FacialMaskDetetor with Modified YOLOv4
-Bachelor Thesis at NUAA, guided by Prof. Chaoying Tang.
----
+## FacialMaskDetetor with Modified YOLOv4
 
-## Introduction
+Bachelor Thesis at NUAA, guided by Prof. Chaoying Tang.
+### Introduction
+
 
 This is the code for my Bachelor Thesis: YOLOv4 Based Facial Mask Detector. Most of facial mask detectors are only able to classify 2 classes: either "masked" or "face", and tend misclassify occlusion objects on human face with the "masked" label. It is contradictory to the sanity requirement of containing the infectious virus. Thus, we need a more sensitive detector for the "occlusion" class, which is defined with objects in front of the face but not facial masks.
 
@@ -16,7 +16,7 @@ this work deals with different occlusions
 
 
 
-## Environments
+### Environments
 
 `torch==1.2`
 
@@ -32,7 +32,7 @@ Please pay attention to your `CUDA` version before installing pytorch!
 
 
 
-## Works
+### Works
 
 - [x] Backbone: DarkNet53
 - [x] Feature Pyramids: SPP，PAN
@@ -41,7 +41,7 @@ Please pay attention to your `CUDA` version before installing pytorch!
 
 
 
-## Set Training Tricks
+### Set Training Tricks
 
 In `train.py` you could choose some training tricks implemented in the code:
 
@@ -51,13 +51,13 @@ In `train.py` you could choose some training tricks implemented in the code:
 
 
 
-## Pretrained Weights
+### Pretrained Weights
 
 Due to storage limits and privacy concerns, the weights are not provided. You could load a pretrained yolov4 weights. 
 
 
 
-## Training Processes
+### Training Processes
 1. Training samples are saved in the form of VOC datasets
 
 2. Save Ground Truth labels to `VOCdevkit/VOC2007/Annotations`
